@@ -1,0 +1,92 @@
+.container {
+  background-color: #111;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding-bottom: 25px;
+}
+.container .logo-container {
+  margin: 25px 0 0 25px;
+}
+.container .button {
+  border: none;
+  outline: none;
+}
+.container .App {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .App .display {
+  height: 6rem;
+  width: 90%;
+  border-radius: 50px;
+  color: white;
+  background-color: #000655;
+  display: flex;
+  font-size: 3rem;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 8%;
+  margin-top: 1%;
+}
+.container .App .specOps {
+  display: flex;
+  margin-top: 2rem;
+}
+.container .App .specOps .specNums {
+  display: flex;
+  flex-direction: column;
+}
+.container .App .specOps .specNums .specials {
+  display: flex;
+}
+.container .App .specOps .specNums .specials .special {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50px;
+  color: white;
+  background-color: #54a869;
+  font-size: 1.8rem;
+  box-shadow: 1px 2px #000655;
+  margin-right: 20px;
+}
+.container .App .specOps .specNums .number {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50px;
+  color: white;
+  background-color: #7851a9;
+  font-size: 1.8rem;
+  box-shadow: 1px 2px #000655;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.container .App .specOps .specNums .zero {
+  height: 5rem;
+  width: 11rem;
+  border-radius: 50px;
+  color: white;
+  background-color: #7851a9;
+  font-size: 1.8rem;
+  margin-right: 1.6rem;
+  margin-top: 12px;
+}
+.container .App .specOps .operators {
+  display: flex;
+  flex-direction: column;
+}
+.container .App .specOps .operators .operator {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50px;
+  color: white;
+  background-color: #492a6e;
+  font-size: 1.8rem;
+  box-shadow: 1px 2px #000655;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=App.css.map */
