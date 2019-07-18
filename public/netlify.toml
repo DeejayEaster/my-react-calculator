@@ -1,0 +1,4 @@
+[build]
+base = "my-calculator/"
+publish = "my-calculator/public/"
+command = "npm run build"
